@@ -5,8 +5,9 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.30"
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50"
+        classpath "com.github.ben-manes:gradle-versions-plugin:0.25.0"
     }
 }
 
@@ -22,20 +23,29 @@ allprojects {
 }
 
 ext {
-    currentSDKVersion = 28
+    currentSDKVersion = 29
     minimumSDKVersion = 21
-    kotlinVersion = '1.3.30'
 
+    // AndroidX: General
     androidXCompatVersion = '1.0.2'
-    androidXOtherVersion = '1.0.0'
-    androidXConstraintLayoutVersion = '1.1.3'
-    materialComponentsVersion = '1.0.0'
-    materialDialogsVersion = '2.8.1'
-	
-	okHttpVersion = '3.12.0'
-	kotlinCoroutinesVersion = '1.0.0'
+    androidXBrowserVersion = '1.2.0-alpha07'
+    androidXRecyclerViewVersion = '1.1.0-beta04'
+    androidXPreferencesVersion = '1.1.0'
+    androidXConstraintLayoutVersion = '2.0.0-beta2'
 
-    assetCopier = '0.1.1'
-    paperVersion = '2.6'
+    // AndroidX: KTX
+    androidXCoreKTX = '1.2.0-alpha04'
+
+    // Kotlin
+    kotlinVersion = '1.3.50'
+    kotlinCoroutinesVersion = '1.3.1'
+
+    // Design
+    materialComponentsVersion = '1.1.0-alpha10'
+    flexBoxLayoutVersion = '1.1.0'
+
+    // Tools
     eventBusVersion = '3.1.1'
+    okHttpVersion = '4.2.0'
+    zxingVersion = '3.6.0'
 }

@@ -1,0 +1,3 @@
+E:/phonedev/Rekado-mod/app/.cxx/cmake/release/x86/CMakeFiles/payload_launcher.dir
+E:/phonedev/Rekado-mod/app/.cxx/cmake/release/x86/CMakeFiles/edit_cache.dir
+E:/phonedev/Rekado-mod/app/.cxx/cmake/release/x86/CMakeFiles/rebuild_cache.dir

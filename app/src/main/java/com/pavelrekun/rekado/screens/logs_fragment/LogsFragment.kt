@@ -4,10 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.pavelrekun.rekado.R
 import com.pavelrekun.rekado.base.BaseActivity
 
-class LogsFragment : androidx.fragment.app.Fragment() {
+class LogsFragment : Fragment() {
 
     private lateinit var mvpView: LogsContract.View
 

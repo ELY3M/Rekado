@@ -1,24 +1,23 @@
 package com.pavelrekun.rekado.screens.logs_fragment.adapters
 
-import androidx.core.content.ContextCompat
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.RecyclerView
 import com.pavelrekun.rekado.R
 import com.pavelrekun.rekado.RekadoApplication
 import com.pavelrekun.rekado.data.Log
-import com.pavelrekun.rekado.services.logs.LogHelper
-import com.pavelrekun.rekado.services.logs.LogHelper.ERROR
+import com.pavelrekun.rekado.services.Logger
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_log.*
 
-class LogsAdapter(var data: MutableList<Log>) : androidx.recyclerview.widget.RecyclerView.Adapter<LogsAdapter.ViewHolder>() {
+class LogsAdapter(var data: MutableList<Log>) : RecyclerView.Adapter<LogsAdapter.ViewHolder>() {
 
     override fun getItemCount() = data.size
 
     fun updateList() {
-        this.data = LogHelper.getLogs()
+        this.data = Logger.getLogs()
 
         notifyDataSetChanged()
     }
@@ -32,13 +31,13 @@ class LogsAdapter(var data: MutableList<Log>) : androidx.recyclerview.widget.Rec
         return ViewHolder(itemView)
     }
 
-    class ViewHolder(override val containerView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(containerView), LayoutContainer {
+    class ViewHolder(override val containerView: View) : RecyclerView.ViewHolder(containerView), LayoutContainer {
 
         fun bind(log: Log) {
             itemLogName.text = log.message
 
-            itemLogType.setBackgroundColor(if(log.type == ERROR) ContextCompat.getColor(RekadoApplication.instance.applicationContext, R.color.colorRed)
-            else ContextCompat.getColor(RekadoApplication.instance.applicationContext, R.color.colorGreen))
+            itemLogRoot.strokeColor = if (log.type == 0) ContextCompat.getColor(RekadoApplication.context, R.color.colorRed)
+            else ContextCompat.getColor(RekadoApplication.context, R.color.colorGreen)
         }
 
     }

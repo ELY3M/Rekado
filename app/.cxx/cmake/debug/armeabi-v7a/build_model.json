@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\phonedev\\Rekado-mod",
+      "sdkFolder": "D:\\android-sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\phonedev\\Rekado-mod\\app",
+      "makeFile": "E:\\phonedev\\Rekado-mod\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "E:\\phonedev\\Rekado-mod\\.cxx",
+      "cxxFolder": "E:\\phonedev\\Rekado-mod\\app\\.cxx",
+      "ndkFolder": "D:\\android-sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "jsonFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a",
+  "objFolder": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+  "buildCommandFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\compile_commands.json"
+}

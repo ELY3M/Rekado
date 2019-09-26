@@ -5,7 +5,7 @@ Payload launcher written in Kotlin for Nintendo Switch.
 
 **Application doesn't require Root on your device.**
 
-[SX Loader](https://sx.xecuter.com/), [ReiNX](https://reinx.guide/) and [Hekate](https://github.com/CTCaer/hekate) payloads bundled as default.
+[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere), [SX Loader](https://sx.xecuter.com/), [ReiNX](https://reinx.guide/) and [Hekate](https://github.com/CTCaer/hekate) payloads bundled as default.
 
 ## Usage
 * Launch application.
@@ -18,6 +18,22 @@ Payload launcher written in Kotlin for Nintendo Switch.
 ## Download
 You can get APK (installation file) from [Releases](https://github.com/MenosGrante/Rekado/releases) form in this repository.
 
+## Known issues
+**Nothing happens after connecting Nintendo Switch**
+
+In most cases this problems occurs if your device doesn't not support OTG connection or it could be just disabled by default (e.g. OnePlus devices). Try to check if your device supports it and check if it is enabled and try again.
+
+**Sending payload failed at offset**
+
+This problem is in most cases not related to the used device, but to the cable or adapter. It occurs most often due to cables that are not designed to transfer large amounts of data. Try to use another cable or adapter.
+
+**SUBMITURB**
+
+This problems occurs on device with old USB-controllers installed in their devices (EHCI/USB 2.0). This is device-only problem, that can be fixed with installing additional kernel patches, what is not recommended to do yourself. Only devices with xHCI (USB 3.0) controllers supported now.
+
+## Localization
+All localization files moved to OneSky platform (which I am using for my other projects) and if you want to add/update/check any localization follow [this link](https://rekundevelopment.oneskyapp.com/collaboration/project?id=336657) to start. I will decline all pull requests with your localizations and will accept only OneSky versions, which I will manually add in new updates.
+
 ## FAQ
 **Does application require Root?**
 
@@ -27,25 +43,10 @@ Application doesn't require Root on your device.
 
 This should not happen when using the "correct" payloads. But I am not responsible for possible problems.
 
-**I want to help in Rekado's localization to my language, what should I do?**
-
-Rekado's localization files placed in few places:
-* \app\src\main\res\values\strings.xml
-* \konae\src\main\res\values\strings.xml
-
-You should translate it. Files marked with **translatable="false"** should not be included in your localization. After finishing create **Pull request** and your localization will be added in Rekado.
-
 ## Credits
 * [DavidBuchanan314](https://github.com/DavidBuchanan314) for creating NXLoader.
 * [ealfonso93](https://github.com/ealfonso93) for contributing in this project.
-* [unbranched](https://github.com/unbranched) for Italian localization.
-* [wendyliga](https://github.com/wendyliga) for Indonesian localization.
-* [javito1081](https://github.com/javito1081) for Spanish localization.
-* [TheSergioEduP](https://github.com/TheSergioEduP) for Portuguese (Portugal) localization.
-* [DavidOliM](https://github.com/DavidOliM) for Portuguese (Brazil) localization.
-* [carlchina](https://github.com/carlchina) for Chinese Simplified localization.
-* [tiliarou](https://github.com/tiliarou) for French localization.
-* [mixon606](https://github.com/mixon606) for Polish localization.
+* [ELY3M](https://github.com/ELY3M) for contributing in this project.
 
 ## Donate
 I have created and supporting this application in my free time, so if you want to support me, follow my <a href="https://www.buymeacoffee.com/pavelrekun" target="_blank">"Buy me coffee"</a> link :)

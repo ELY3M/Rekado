@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\phonedev\\Rekado-mod\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "payload_launcher-Release-armeabi-v7a": {
+      "artifactName": "payload_launcher",
+      "buildCommand": "D:\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\armeabi-v7a --target payload_launcher",
+      "abi": "armeabi-v7a",
+      "output": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libpayload_launcher.so"
+    }
+  }
+}
