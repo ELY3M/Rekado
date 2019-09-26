@@ -1,0 +1,3 @@
+# ninja log v5
+0	9441	0	CMakeFiles/payload_launcher.dir/src/main/cpp/payload_launcher.cpp.o	eaeeaef7c9a288eb
+9443	10617	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libpayload_launcher.so	b3a6c22fdd82a72c
