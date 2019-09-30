@@ -10,7 +10,6 @@ object MemoryUtils {
 
     fun copyBundledPayloads() {
         copyAsset(PayloadHelper.BUNDLED_PAYLOAD_AMS)
-        copyAsset(PayloadHelper.BUNDLED_PAYLOAD_SX)
         copyAsset(PayloadHelper.BUNDLED_PAYLOAD_REINX)
         copyAsset(PayloadHelper.BUNDLED_PAYLOAD_HEKATE)
 

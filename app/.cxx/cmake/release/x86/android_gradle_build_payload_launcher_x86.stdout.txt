@@ -1,7 +1,1 @@
-[1/2] Building CXX object CMakeFiles/payload_launcher.dir/src/main/cpp/payload_launcher.cpp.o
-E:\phonedev\Rekado-mod\app\src\main\cpp\payload_launcher.cpp:16:54: warning: static_assert with no message is a C++17 extension [-Wc++17-extensions]
-    static_assert(sizeof(struct usb_ctrlrequest) == 8);
-                                                     ^
-                                                     , ""
-1 warning generated.
-[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\release\obj\x86\libpayload_launcher.so
+ninja: no work to do.

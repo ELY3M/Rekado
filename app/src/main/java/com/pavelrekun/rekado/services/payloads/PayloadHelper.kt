@@ -28,7 +28,6 @@ object PayloadHelper {
 
 
     const val BUNDLED_PAYLOAD_AMS = "fusee-primary.bin"
-    const val BUNDLED_PAYLOAD_SX = "sx_loader.bin"
     const val BUNDLED_PAYLOAD_REINX = "ReiNX.bin"
     const val BUNDLED_PAYLOAD_HEKATE = "hekate.bin"
 
@@ -59,9 +58,9 @@ object PayloadHelper {
 
     private fun getAllFiles() = getLocation().listFiles().filter { it != null && it.extension == "bin" }.toMutableList()
 
-    private fun isBundledPayload(payload: Payload) = payload.name == BUNDLED_PAYLOAD_AMS || payload.name == BUNDLED_PAYLOAD_SX || payload.name == BUNDLED_PAYLOAD_REINX || payload.name == BUNDLED_PAYLOAD_HEKATE
+    private fun isBundledPayload(payload: Payload) = payload.name == BUNDLED_PAYLOAD_AMS  || payload.name == BUNDLED_PAYLOAD_REINX || payload.name == BUNDLED_PAYLOAD_HEKATE
 
-    private fun isNotBundledPayload(payload: Payload) = payload.name != BUNDLED_PAYLOAD_AMS && payload.name != BUNDLED_PAYLOAD_SX && payload.name != BUNDLED_PAYLOAD_REINX && payload.name != BUNDLED_PAYLOAD_HEKATE
+    private fun isNotBundledPayload(payload: Payload) = payload.name != BUNDLED_PAYLOAD_AMS && payload.name != BUNDLED_PAYLOAD_REINX && payload.name != BUNDLED_PAYLOAD_HEKATE
 
     fun downloadPayload(activity: BaseActivity, name: String, url: String) = GlobalScope.launch(Dispatchers.Main) {
         val properName = if (name.endsWith(".bin")) name else "$name.bin"
