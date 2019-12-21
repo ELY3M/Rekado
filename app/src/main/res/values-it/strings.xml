@@ -5,8 +5,8 @@
     <string name="navigation_tools">Strumenti</string>
     <string name="navigation_instructions">Istruzioni</string>
     <string name="navigation_logs">Registro</string>
-    <string name="navigation_about">Al riguardo</string>
-    <string name="navigation_donate">Dona</string>
+    <string name="navigation_about">Riguardo Rekado</string>
+    <string name="navigation_donate">Sostieni lo sviluppo</string>
     <string name="navigation_settings">Impostazioni</string>
     <string name="navigation_serial_checker">Controllo numero seriale</string>
     <string name="navigation_translators">Traduttori</string>
@@ -17,8 +17,8 @@
     <string name="about_developer_personal_site">Sito personale</string>
     <!-- Strings for Payloads -->
     <string name="payloads_download_status_empty">Il nome o l\'URL non possono essere vuoti!</string>
-    <string name="payloads_download_status_success">Payload %1$s scaricato!</string>
-    <string name="payloads_download_status_error">C\'è stato un errore nello scaricare il payload %1$s. Controlla la tua connessione ad internet o l\'URL.</string>
+    <string name="payloads_download_status_success">Payload %1$s scaricato correttamente!</string>
+    <string name="payloads_download_status_error">C\'è stato un errore scaricando il payload %1$s. Controlla la tua connessione o errori nell\'URL.</string>
     <!-- Strings for Tools -->
     <string name="tools_serial_checker_title">Controllo numero seriale</string>
     <string name="tools_serial_checker_description">Controlla se il tuo Nintendo Switch è modificabile con il numero seriale dell\'unità</string>
@@ -26,31 +26,50 @@
     <string name="instructions_category_cable">Cavo</string>
     <string name="instructions_category_cable_description">Prima devi trovare un cavo per connettere il tuo dispositivo al Nintendo Switch. Per funzionare correttamente, il cavo dovrebbe essere progettato per trasmettere dati, non solo per ricarica.\n\nSi consiglia di usare un cavo da tipo A a tipo C ed un adattatore USB OTG.</string>
     <string name="instructions_category_payload">Payload</string>
-    <string name="instructions_category_payload_description">Nella categoria \"Payload\", tocca il pulsante \"+\" per selezionare un payload dalla memoria del tuo dispositivo. Altrimenti puoi semplicemente trasferire il tuo payload nella cartella Rekado nella memoria del dispositivo.\n\nPuoi anche usare i payload predefiniti (SX Loader/ReiNX/Hekate)</string>
-    <string name="instructions_category_rcm_description">Avvia il tuo Nintendo Switch in modalità RCM con il metodo che preferisci. \n\nIl tuo Nintendo Switch si accenderà da solo una volta collegato, assicurati di tenere premuto VOLUME +.</string>
+    <string name="instructions_category_payload_description">Nella categoria \"Payload\", tocca il pulsante \"+\" per selezionare un payload dalla memoria del tuo dispositivo. Altrimenti puoi semplicemente trasferire il tuo payload nella cartella Rekado (/sdcard/Android/data/com.pavelrekun.rekado/files/).\n\nPuoi anche usare i payload pre-installati (Hekate/Fusee Primary).</string>
+    <string name="instructions_category_rcm_description">Avvia il tuo Nintendo Switch in modalità RCM con il metodo che preferisci.\n\nIl tuo Nintendo Switch si accenderà da solo una volta collegato, assicurati di tenere premuto VOLUME +.</string>
     <string name="instructions_category_final">Conclusione</string>
     <string name="instructions_category_final_description">Connetti il dispositivo al Nintendo Switch e permetti l\'accesso USB se richiesto. Attendi finchè la finestra di scelta del payload si apra e seleziona quello che vuoi caricare.</string>
     <!-- Strings for Donate -->
-    <string name="donate_description">Puoi supportare lo sviluppo dell\'applicazione offrendomi un caffè.</string>
+    <string name="donate_description">Puoi sostenere lo sviluppo dell\'applicazione offrendomi un caffè.</string>
     <!-- Strings for Settings -->
     <string name="settings_category_auto_injector">Iniezione automatica</string>
     <string name="settings_auto_injector_status_title_disabled">Attiva l\'iniezione automatica</string>
     <string name="settings_auto_injector_status_title_enabled">Disattiva l\'iniezione automatica</string>
     <string name="settings_auto_injector_payload_title">Payload</string>
     <string name="settings_category_payloads">Payload</string>
-    <string name="settings_payloads_remove_bundled_title">Nascondi predefiniti</string>
-    <string name="settings_payloads_remove_bundled_summary">Nascondi tutti i payload predefiniti</string>
+    <string name="settings_payloads_remove_pre_installed_title">Nascondi pre-installati</string>
+    <string name="settings_payloads_remove_pre_installed_summary">Nascondi tutti i payload pre-installati</string>
     <string name="settings_payloads_reset_title">Svuota</string>
-    <string name="settings_payloads_reset_summary">Rimuovi tutti i payload aggiunti eccetto i predefiniti (SX Loader/ReiNX/Hekate)</string>
+    <string name="settings_payloads_reset_summary">Rimuovi tutti i payload aggiunti eccetto i pre-installati (Hekate/Fusee Primary)</string>
     <string name="settings_category_appearance">Aspetto</string>
     <string name="settings_appearance_theme_title">Tema</string>
     <string name="settings_appearance_theme_summary">Tema principale dell\'applicazione</string>
-    <string name="settings_appearance_updating">Aggiornamento dell\'aspetto…</string>
     <string name="settings_appearance_accent_color_title">Colore titoli</string>
     <string name="settings_appearance_accent_color_summary">Colore usato per gli elementi dell\'interfeccia</string>
+    <string name="settings_appearance_randomize_title">Aspetto casuale</string>
+    <string name="settings_appearance_randomize_summary">Imposta tema e colori casuali</string>
+    <string name="settings_appearance_reset_title">Ripristina</string>
+    <string name="settings_appearance_reset_summary">Ripristina le impostazioni di aspetto predefinite</string>
     <string name="settings_picker_color_title">Scegli il colore</string>
+    <string name="settings_picker_color_button_close">Chiudi</string>
     <string name="settings_picker_theme_title">Scegli il tema</string>
     <string name="settings_picker_theme_preview">Anteprima</string>
+    <string name="settings_picker_theme_category_themes">Temi</string>
+    <string name="settings_picker_theme_themes_general_white">Bianco</string>
+    <string name="settings_picker_theme_themes_general_dark">Scuro</string>
+    <string name="settings_picker_theme_themes_general_sepia">Seppia</string>
+    <string name="settings_picker_theme_themes_general_black">Nero</string>
+    <string name="settings_picker_theme_themes_general_rose">Rosa</string>
+    <string name="settings_picker_theme_themes_general_serenity">Serenità</string>
+    <string name="settings_picker_theme_themes_colorful_olive">Oliva</string>
+    <string name="settings_picker_theme_themes_colorful_jungle">Giungla</string>
+    <string name="settings_picker_theme_themes_colorful_pepper">Pepe</string>
+    <string name="settings_picker_theme_themes_colorful_ocean">Oceano</string>
+    <string name="settings_utils_restart_dialog_title">Impostazioni modificate</string>
+    <string name="settings_utils_restart_dialog_message">Le impostazioni sono state modificate. Si prega di riavviare perché le modifiche abbiano effetto.\n\nRiavviare l\'app adesso?</string>
+    <string name="settings_utils_restart_dialog_action_restart">Riavvia</string>
+    <string name="settings_utils_restart_dialog_action_cancel">Annulla</string>
     <!-- Strings for DialogsShower -->
     <string name="dialog_loader_title">Scegli il payload</string>
     <string name="dialog_reset_payloads_title">Svuota</string>
@@ -79,6 +98,7 @@
     <string name="serial_checker_status_error">Impossibile controllore il numero seriale!</string>
     <string name="serial_checker_status_empty">Il numero seriale non può essere vuoto!</string>
     <string name="serial_checker_status_too_long">La lunghezza massima del numero di serie è di 14 caratteri !</string>
+    <string name="serial_checker_status_scan_failed">Scansione del codice a barre fallita!</string>
     <!-- Strings for Helper -->
     <string name="helper_error_adding_payload">Il payload selezionato non può essere aggiunto !</string>
 </resources>

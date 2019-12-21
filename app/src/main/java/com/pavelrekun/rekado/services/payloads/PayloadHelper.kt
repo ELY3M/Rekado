@@ -26,10 +26,8 @@ object PayloadHelper {
 
     private const val CHOSEN_PAYLOAD = "CHOSEN_PAYLOAD"
 
-
-    const val BUNDLED_PAYLOAD_AMS = "fusee-primary.bin"
-    const val BUNDLED_PAYLOAD_REINX = "ReiNX.bin"
     const val BUNDLED_PAYLOAD_HEKATE = "hekate.bin"
+    const val BUNDLED_PAYLOAD_FUSEE_PRIMARY = "fusee-primary.bin"
 
     fun getLocation(): File {
         return RekadoApplication.context.getExternalFilesDir(null)
@@ -58,9 +56,9 @@ object PayloadHelper {
 
     private fun getAllFiles() = getLocation().listFiles().filter { it != null && it.extension == "bin" }.toMutableList()
 
-    private fun isBundledPayload(payload: Payload) = payload.name == BUNDLED_PAYLOAD_AMS  || payload.name == BUNDLED_PAYLOAD_REINX || payload.name == BUNDLED_PAYLOAD_HEKATE
+    fun isBundledPayload(payload: Payload) = payload.name == BUNDLED_PAYLOAD_HEKATE || payload.name == BUNDLED_PAYLOAD_FUSEE_PRIMARY
 
-    private fun isNotBundledPayload(payload: Payload) = payload.name != BUNDLED_PAYLOAD_AMS && payload.name != BUNDLED_PAYLOAD_REINX && payload.name != BUNDLED_PAYLOAD_HEKATE
+    fun isNotBundledPayload(payload: Payload) = payload.name != BUNDLED_PAYLOAD_HEKATE && payload.name != BUNDLED_PAYLOAD_FUSEE_PRIMARY
 
     fun downloadPayload(activity: BaseActivity, name: String, url: String) = GlobalScope.launch(Dispatchers.Main) {
         val properName = if (name.endsWith(".bin")) name else "$name.bin"

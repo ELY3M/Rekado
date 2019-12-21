@@ -63,7 +63,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:fontFamily="sans-serif-medium"
-                android:text="https://github.com/MenosGrante/Rekado"
+                android:text="https://github.com/ELY3M/Rekado---modded-by-ELY-M"
                 android:textColor="?attr/colorAccent"
                 android:textSize="16sp" />
 
@@ -89,7 +89,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        style="@style/Siga.Widget.Text.Subtitle"
+                        style="@style/Penza.Widget.Text.Subtitle.Padding"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/about_category_description" />
@@ -125,7 +125,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        style="@style/Siga.Widget.Text.Subtitle"
+                        style="@style/Penza.Widget.Text.Subtitle.Padding"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/about_category_developer" />

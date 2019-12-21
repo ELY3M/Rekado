@@ -3,51 +3,52 @@
     <!-- Strings for Navigation -->
     <string name="navigation_payloads">페이로드</string>
     <string name="navigation_tools">도구</string>
-    <string name="navigation_instructions">지침</string>
+    <string name="navigation_instructions">설명</string>
     <string name="navigation_logs">로그</string>
-    <string name="navigation_about">정보</string>
-    <string name="navigation_donate">기부</string>
+    <string name="navigation_about">Rekado 정보</string>
+    <string name="navigation_donate">지원 개발</string>
     <string name="navigation_settings">설정</string>
-    <string name="navigation_serial_checker">일련 번호 검사기</string>
+    <string name="navigation_serial_checker">시리얼 확인기</string>
     <string name="navigation_translators">번역가</string>
     <!-- Strings for About -->
-    <string name="about_category_description">설명</string>
+    <string name="about_category_description">서술</string>
     <string name="about_category_developer">개발자</string>
-    <string name="about_information_description">Kotlin 와 C++로 작성된 응용 프로그램입니다. 닌텐도 스위치에 페이로드를 주입하는데 사용됩니다.</string>
+    <string name="about_information_description">Kotlin 및 C ++로 작성된 응용 프로그램. 닌텐도 스위치에 페이로드를 주입하는 데 사용됩니다</string>
     <string name="about_developer_personal_site">개인 사이트</string>
     <!-- Strings for Payloads -->
-    <string name="payloads_download_status_empty">이름 또는 URL은 비워 둘 수 없습니다!</string>
-    <string name="payloads_download_status_success">%1$s 페이로드를 성공적으로 다운로드했습니다!</string>
-    <string name="payloads_download_status_error">%1$s 페이로드를 다운로드 중 오류가 발생했습니다. 연결 또는 URL의 오타를 확인하십시오.</string>
+    <string name="payloads_download_status_empty">이름이나 URL은 비워 둘 수 없습니다!</string>
+    <string name="payloads_download_status_success">페이로드 %1$s을(를) 다운로드했습니다!</string>
+    <string name="payloads_download_status_error">페이로드 %1$s 다운로드하는 동안 오류가 발생했습니다. URL에서 연결 또는 오타를 확인하십시오.</string>
     <!-- Strings for Tools -->
-    <string name="tools_serial_checker_title">일련 번호 검사기</string>
-    <string name="tools_serial_checker_description">닌텐도 스위치가 장치의 일련 번호를 사용하여 해킹 가능한지 확인하십시오.</string>
+    <string name="tools_serial_checker_title">시리얼 확인기</string>
+    <string name="tools_serial_checker_description">장치의 시리얼 번호를 사용하여 닌텐도 스위치가 해킹 가능한지 확인하십시오.</string>
     <!-- Strings for Instructions -->
     <string name="instructions_category_cable">케이블</string>
-    <string name="instructions_category_cable_description">먼저 장치를 닌텐도 스위치에 연결하기 위한 케이블을 찾아야합니다. 적절한 작업을 위해서는 충전용이 아닌 데이터 전송용으로 설계된 케이블이어야 합니다.\n\nA-to-C 케이블과 USB OTG 어댑터를 사용하는 것이 좋습니다.</string>
+    <string name="instructions_category_cable_description">먼저, 장치를 닌텐도 스위치에 연결하기 위한 케이블을 찾아야합니다. 올바른 작업을 위해서는 충전뿐만 아니라 데이터 전송 용으로 설계된 케이블이어야합니다.\n\nA-to-C 케이블과 USB OTG 어댑터를 사용하는 것이 좋습니다.</string>
     <string name="instructions_category_payload">페이로드</string>
-    <string name="instructions_category_payload_description">\"\ud398\uc774\ub85c\ub4dc\" \uce74\ud14c\uace0\ub9ac\uc5d0\uc11c \"+\" \ubc84\ud2bc\uc744 \ud074\ub9ad\ud558\uc5ec \uc7a5\uce58\uc758 \uc800\uc7a5\uc18c\uc5d0\uc11c \ubbf8\ub9ac \ub85c\ub4dc\ub41c \ud398\uc774\ub85c\ub4dc\ub97c \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624. \ub610\ub294 \ud398\uc774\ub85c\ub4dc\ub97c \uc7a5\uce58\uc758 \uba54\ubaa8\ub9ac\uc5d0 \uc788\ub294 Rekado \ud3f4\ub354\ub85c \uc804\uc1a1\ud558\uba74\ub429\ub2c8\ub2e4.\n\n\ub610\ub294 \ubc88\ub4e4 \ud398\uc774\ub85c\ub4dc (SX Loader/ReiNX/Hekate)\ub97c \uc0ac\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.</string>
-    <string name="instructions_category_rcm_description">편리한 방법으로 닌텐도 스위치를 RCM 모드로 전환하십시오..\n\n전원을 연결하면 닌텐도 스위치의 전원이 켜지므로 볼륨 + 버튼을 누르고 있어야합니다.</string>
+    <string name="instructions_category_payload_description">\'\ud398\uc774\ub85c\ub4dc\' \uce74\ud14c\uace0\ub9ac\uc5d0\uc11c \'+\' \ubc84\ud2bc\uc744 \ud074\ub9ad\ud558\uc5ec \uae30\uae30 \uc800\uc7a5\uc18c\uc5d0\uc11c \uc0ac\uc804 \ub85c\ub4dc \ub41c \ud398\uc774\ub85c\ub4dc\ub97c \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624. \ub610\ub294 \ud398\uc774\ub85c\ub4dc\ub97c Rekado \ud3f4\ub354 (/sdcard/Android/data/com.pavelrekun.rekado/files/)\ub85c \uc804\uc1a1\ud558\uc2ed\uc2dc\uc624.\n\n\ub610\ub294 \uc0ac\uc804 \uc124\uce58\ub41c \ud398\uc774\ub85c\ub4dc (Hekate/Fusee Primary)\ub97c \uc0ac\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.</string>
+    <string name="instructions_category_rcm_description">편리한 방법으로 닌텐도 스위치를 RCM 모드로 전환하십시오.\n\n닌텐도 스위치가 연결되면 자체적으로 켜집니다. 볼륨 + 버튼을 길게 누르십시오.</string>
     <string name="instructions_category_final">최종</string>
-    <string name="instructions_category_final_description">장치를 닌텐도 스위치에 연결하고 필요한 경우 USB 액세스 권한을 허용하십시오. 유니트 페이로드 선택 대기 대화 상자가 열리며 로드할 장치를 선택하십시오.</string>
+    <string name="instructions_category_final_description">장치를 닌텐도 스위치에 연결하고 필요한 경우 USB 접속 권한을 허용하십시오. 대기 장치 페이로드 선택기 대화 상자가 열리고 로드 할 것을 선택하십시오</string>
     <!-- Strings for Donate -->
-    <string name="donate_description">나에게 커피를 사주면 응용 프로그램 개발을 지원할 수 있습니다.</string>
+    <string name="donate_description">커피를 사서 응용 프로그램 개발을 지원할 수 있습니다.</string>
     <!-- Strings for Settings -->
-    <string name="settings_category_auto_injector">자동 주입기</string>
-    <string name="settings_auto_injector_status_title_disabled">\"\uc790\ub3d9 \uc8fc\uc785\uae30\" \ud65c\uc131\ud654</string>
-    <string name="settings_auto_injector_status_title_enabled">\"\uc790\ub3d9 \uc8fc\uc785\uae30\" \ube44\ud65c\uc131\ud654</string>
+    <string name="settings_category_auto_injector">Auto-injector</string>
+    <string name="settings_auto_injector_status_title_disabled">\"Auto-injector\" \ud65c\uc131\ud654</string>
+    <string name="settings_auto_injector_status_title_enabled">\"Auto-injector\" \ube44\ud65c\uc131\ud654</string>
     <string name="settings_auto_injector_payload_title">페이로드</string>
     <string name="settings_category_payloads">페이로드</string>
-    <string name="settings_payloads_remove_bundled_title">번들 숨김</string>
-    <string name="settings_payloads_remove_bundled_summary">모든 번들 페이로드 숨김</string>
+    <string name="settings_payloads_remove_pre_installed_title">사전 설치 숨기기</string>
+    <string name="settings_payloads_remove_pre_installed_summary">모든 사전 설치 페이로드 숨기기</string>
     <string name="settings_payloads_reset_title">지움</string>
-    <string name="settings_payloads_reset_summary">번들 (SX Loader/ReiNX/Hekate)을 제외한 추가  페이로드 모두 제거</string>
-    <string name="settings_category_appearance">외관</string>
+    <string name="settings_payloads_reset_summary">사전 설치된 (Hekate/Fusee Primary)를 제외한 추가된 모든 페이로드 제거</string>
+    <string name="settings_category_appearance">외형</string>
     <string name="settings_appearance_theme_title">테마</string>
-    <string name="settings_appearance_theme_summary">응용 프로그램의 메인 테마</string>
-    <string name="settings_appearance_updating">외관 업데이트 중…</string>
+    <string name="settings_appearance_theme_summary">응용 프로그램의 주요 테마</string>
     <string name="settings_appearance_accent_color_title">강조 색상</string>
     <string name="settings_appearance_accent_color_summary">UI 요소의 색조에 사용되는 색상</string>
+    <string name="settings_appearance_randomize_title">외형 무작위</string>
+    <string name="settings_appearance_randomize_summary">테마와 색상을 임의로 설정</string>
     <string name="settings_appearance_reset_title">리셋</string>
     <string name="settings_appearance_reset_summary">모양 설정을 기본값으로 재설정</string>
     <string name="settings_picker_color_title">색상 선택</string>
@@ -55,6 +56,16 @@
     <string name="settings_picker_theme_title">테마 선택</string>
     <string name="settings_picker_theme_preview">미리보기</string>
     <string name="settings_picker_theme_category_themes">테마</string>
+    <string name="settings_picker_theme_themes_general_white">흰색</string>
+    <string name="settings_picker_theme_themes_general_dark">어두움</string>
+    <string name="settings_picker_theme_themes_general_sepia">적갈색</string>
+    <string name="settings_picker_theme_themes_general_black">검정색</string>
+    <string name="settings_picker_theme_themes_general_rose">장미</string>
+    <string name="settings_picker_theme_themes_general_serenity">편온함</string>
+    <string name="settings_picker_theme_themes_colorful_olive">올리브</string>
+    <string name="settings_picker_theme_themes_colorful_jungle">정글</string>
+    <string name="settings_picker_theme_themes_colorful_pepper">후추</string>
+    <string name="settings_picker_theme_themes_colorful_ocean">대양</string>
     <string name="settings_utils_restart_dialog_title">설정 변경</string>
     <string name="settings_utils_restart_dialog_message">설정이 변경되었습니다. 변경 사항을 적용하려면 응용 프로그램을 다시 시작하십시오.\n\n지금 앱을 다시 시작 하시겠습니까?</string>
     <string name="settings_utils_restart_dialog_action_restart">재시작</string>

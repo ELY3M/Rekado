@@ -9,9 +9,8 @@ import org.greenrobot.eventbus.EventBus
 object MemoryUtils {
 
     fun copyBundledPayloads() {
-        copyAsset(PayloadHelper.BUNDLED_PAYLOAD_AMS)
-        copyAsset(PayloadHelper.BUNDLED_PAYLOAD_REINX)
         copyAsset(PayloadHelper.BUNDLED_PAYLOAD_HEKATE)
+        copyAsset(PayloadHelper.BUNDLED_PAYLOAD_FUSEE_PRIMARY)
 
         EventBus.getDefault().post(Events.UpdatePayloadsListEvent())
     }

@@ -12,7 +12,6 @@ import com.pavelrekun.rekado.services.extensions.getString
 import com.pavelrekun.rekado.services.extensions.isEmpty
 import com.pavelrekun.rekado.services.payloads.PayloadHelper
 import com.pavelrekun.rekado.services.utils.Utils
-import kotlinx.android.synthetic.main.dialog_donate.view.*
 import kotlinx.android.synthetic.main.dialog_payload_download.*
 import org.greenrobot.eventbus.EventBus
 
@@ -70,20 +69,6 @@ object DialogsShower {
             }
         }
 
-    }
-
-    fun showDonateDialog(activity: BaseActivity) {
-        val view = activity.layoutInflater.inflate(R.layout.dialog_donate, null)
-        val builder = MaterialAlertDialogBuilder(activity)
-
-        view.donateBuyMeCoffee.setOnClickListener { Utils.openLink(activity, Constants.DONATE_LINK) }
-
-        builder.setTitle(R.string.navigation_donate)
-
-        builder.create().apply {
-            setView(view)
-            show()
-        }
     }
 
 }

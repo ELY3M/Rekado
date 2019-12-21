@@ -9,11 +9,17 @@
         android:summary="@string/settings_appearance_theme_summary"
         android:title="@string/settings_appearance_theme_title" />
 
-    <com.pavelrekun.siga.pickers.color.ColorPickerPreference
+    <com.pavelrekun.penza.pickers.color.ColorPickerPreference
         android:icon="@drawable/ic_settings_appearance_accent"
         android:key="appearance_accent_color"
         android:summary="@string/settings_appearance_accent_color_summary"
         android:title="@string/settings_appearance_accent_color_title" />
+
+    <Preference
+        android:icon="@drawable/ic_settings_appearance_random"
+        android:key="appearance_randomize"
+        android:summary="@string/settings_appearance_randomize_summary"
+        android:title="@string/settings_appearance_randomize_title" />
 
     <Preference
         android:icon="@drawable/ic_settings_reset"
@@ -40,8 +46,8 @@
     <CheckBoxPreference
         android:icon="@drawable/ic_settings_payloads_hide"
         android:key="payloads_hide_bundled"
-        android:summary="@string/settings_payloads_remove_bundled_summary"
-        android:title="@string/settings_payloads_remove_bundled_title" />
+        android:summary="@string/settings_payloads_remove_pre_installed_summary"
+        android:title="@string/settings_payloads_remove_pre_installed_title" />
 
     <Preference
         android:icon="@drawable/ic_settings_payloads_clear"

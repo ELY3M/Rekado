@@ -10,8 +10,8 @@ android {
         applicationId "com.pavelrekun.rekado"
         minSdkVersion minimumSDKVersion
         targetSdkVersion currentSDKVersion
-        versionCode 58
-        versionName "3.2.1"
+        versionCode 61
+        versionName "3.3.1"
     }
 
     buildTypes {
@@ -59,7 +59,7 @@ android {
 dependencies {
 
     // Local
-    implementation(name: 'siga', ext: 'aar')
+    implementation(name: 'penza', ext: 'aar')
 
     // AndroidX: General
     implementation "androidx.recyclerview:recyclerview:$androidXRecyclerViewVersion"
@@ -71,8 +71,8 @@ dependencies {
     implementation "androidx.core:core-ktx:$androidXCoreKTX"
 
     // Design
-    implementation "com.google.android:flexbox:$flexBoxLayoutVersion"
     implementation "com.google.android.material:material:$materialComponentsVersion"
+    implementation "com.google.android:flexbox:$flexBoxLayoutVersion"
 
     // Tools
     implementation "org.greenrobot:eventbus:$eventBusVersion"

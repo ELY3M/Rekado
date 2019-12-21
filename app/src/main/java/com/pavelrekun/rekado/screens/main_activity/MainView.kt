@@ -57,11 +57,6 @@ class MainView(private val activity: BaseActivity, private val savedInstanceStat
                 true
             }
 
-            R.id.navigation_donate -> {
-                DialogsShower.showDonateDialog(activity)
-                true
-            }
-
             R.id.navigation_translators -> {
                 activity.startActivity(Intent(activity, TranslatorsActivity::class.java))
                 true
