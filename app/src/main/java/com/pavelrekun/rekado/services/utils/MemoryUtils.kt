@@ -9,6 +9,7 @@ import org.greenrobot.eventbus.EventBus
 object MemoryUtils {
 
     fun copyBundledPayloads() {
+        copyAsset(PayloadHelper.BUNDLED_PAYLOAD_TEGRAEXPLORER)
         copyAsset(PayloadHelper.BUNDLED_PAYLOAD_HEKATE)
         copyAsset(PayloadHelper.BUNDLED_PAYLOAD_FUSEE_PRIMARY)
 

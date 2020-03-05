@@ -5,13 +5,14 @@ apply plugin: "com.github.ben-manes.versions"
 
 android {
     compileSdkVersion currentSDKVersion
+    ndkVersion NDKVersion
 
     defaultConfig {
         applicationId "com.pavelrekun.rekado"
         minSdkVersion minimumSDKVersion
         targetSdkVersion currentSDKVersion
-        versionCode 61
-        versionName "3.3.1"
+        versionCode 63
+        versionName "3.3.4"
     }
 
     buildTypes {
@@ -54,6 +55,7 @@ android {
     aaptOptions {
         noCompress 'bin'
     }
+
 }
 
 dependencies {
@@ -61,16 +63,16 @@ dependencies {
     // Local
     implementation(name: 'penza', ext: 'aar')
 
-    // AndroidX: General
+    // Google: AndroidX
     implementation "androidx.recyclerview:recyclerview:$androidXRecyclerViewVersion"
     implementation "androidx.browser:browser:$androidXBrowserVersion"
     implementation "androidx.preference:preference:$androidXPreferencesVersion"
     implementation "androidx.constraintlayout:constraintlayout:$androidXConstraintLayoutVersion"
 
-    // AndroidX: KTX
+    // Google: AndroidX KTX
     implementation "androidx.core:core-ktx:$androidXCoreKTX"
 
-    // Design
+    // Google: Design
     implementation "com.google.android.material:material:$materialComponentsVersion"
     implementation "com.google.android:flexbox:$flexBoxLayoutVersion"
 

@@ -1,3 +1,3 @@
 # ninja log v5
-1	868	0	CMakeFiles/payload_launcher.dir/src/main/cpp/payload_launcher.cpp.o	9fe983c0a0921ef8
-870	1153	0	../../../../build/intermediates/cmake/release/obj/x86_64/libpayload_launcher.so	19c7aaf977da29a3
+0	1131	605128606	CMakeFiles/payload_launcher.dir/src/main/cpp/payload_launcher.cpp.o	abeef6f2e3a52cda
+1132	1522	605128606	../../../../build/intermediates/cmake/release/obj/x86_64/libpayload_launcher.so	f46b148060ece894

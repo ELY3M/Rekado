@@ -1,1 +1,2 @@
+ninja: Entering directory `E:\phonedev\Rekado-mod\app\.cxx\cmake\release\x86_64'
 ninja: no work to do.

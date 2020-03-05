@@ -1,1 +1,2 @@
+ninja: Entering directory `E:\phonedev\Rekado-mod\app\.cxx\cmake\release\arm64-v8a'
 ninja: no work to do.

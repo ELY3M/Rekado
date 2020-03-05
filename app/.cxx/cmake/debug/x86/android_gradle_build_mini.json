@@ -1,14 +1,17 @@
 {
   "buildFiles": [
+    "D:\\android-sdk\\android-ndk-r21\\build\\cmake\\platforms.cmake",
+    "D:\\android-sdk\\android-ndk-r21\\build\\cmake\\android.toolchain.cmake",
     "E:\\phonedev\\Rekado-mod\\app\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "D:\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\x86 --target clean"
+    "D:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\x86\" clean"
   ],
+  "buildTargetsCommand": "D:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "payload_launcher-Debug-x86": {
       "artifactName": "payload_launcher",
-      "buildCommand": "D:\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\x86 --target payload_launcher",
+      "buildCommand": "D:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\debug\\x86\" payload_launcher",
       "abi": "x86",
       "output": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libpayload_launcher.so"
     }

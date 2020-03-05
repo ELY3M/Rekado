@@ -1,38 +1,42 @@
-
 {
-	"buildFiles" : [ "E:/phonedev/Rekado-mod/app/CMakeLists.txt" ],
-	"cleanCommands" : 
-	[
-		"D:\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\x86 --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"payload_launcher-Release-x86" : 
-		{
-			"abi" : "x86",
-			"artifactName" : "payload_launcher",
-			"buildCommand" : "D:\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\x86 --target payload_launcher",
-			"buildType" : "release",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=D:/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dpayload_launcher_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "E:/phonedev/Rekado-mod/app/src/main/cpp/payload_launcher.cpp",
-					"workingDirectory" : "E:/phonedev/Rekado-mod/app/.cxx/cmake/release/x86"
-				}
-			],
-			"output" : "E:/phonedev/Rekado-mod/app/build/intermediates/cmake/release/obj/x86/libpayload_launcher.so",
-			"toolchain" : "2064229213"
-		}
-	},
-	"toolchains" : 
-	{
-		"2064229213" : 
-		{
-			"cCompilerExecutable" : "D:/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "D:/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
-		}
-	}
+  "stringTable": {
+    "0": "E:/phonedev/Rekado-mod/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=D:/android-sdk/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android-sdk/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dpayload_launcher_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "D:\\android-sdk\\android-ndk-r21\\build\\cmake\\platforms.cmake",
+    "D:\\android-sdk\\android-ndk-r21\\build\\cmake\\android.toolchain.cmake",
+    "E:\\phonedev\\Rekado-mod\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "payload_launcher-Release-x86": {
+      "buildCommand": "D:\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\phonedev\\Rekado-mod\\app\\.cxx\\cmake\\release\\x86\" payload_launcher",
+      "buildType": "release",
+      "toolchain": "2311305092",
+      "abi": "x86",
+      "artifactName": "payload_launcher",
+      "files": [
+        {
+          "src": "E:\\phonedev\\Rekado-mod\\app\\src\\main\\cpp\\payload_launcher.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "E:\\phonedev\\Rekado-mod\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libpayload_launcher.so"
+    }
+  },
+  "toolchains": {
+    "2311305092": {
+      "cppCompilerExecutable": "D:\\android-sdk\\android-ndk-r21\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

@@ -1,13 +1,13 @@
 {
-  "ndkFolder": "D:\\android-sdk\\ndk-bundle",
+  "ndkFolder": "D:\\android-sdk\\android-ndk-r21",
   "messages": [
     {
       "level": "INFO",
-      "message": "android.ndkVersion from module build.gradle is not set"
+      "message": "android.ndkVersion from module build.gradle is 21.0.6113669"
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is D:\\android-sdk\\ndk-bundle"
+      "message": "ndk.dir in local.properties is D:\\android-sdk\\android-ndk-r21"
     },
     {
       "level": "INFO",
@@ -19,7 +19,7 @@
     },
     {
       "level": "INFO",
-      "message": "Considering D:\\android-sdk\\ndk-bundle by ndk.dir"
+      "message": "Considering D:\\android-sdk\\android-ndk-r21 by ndk.dir"
     },
     {
       "level": "INFO",
@@ -27,7 +27,11 @@
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (D:\\android-sdk\\ndk-bundle) which has version 20.0.5594570"
+      "message": "Considering D:\\android-sdk\\ndk\\21.0.6113669 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Choosing D:\\android-sdk\\android-ndk-r21 from ndk.dir which had the requested version 21.0.6113669"
     }
   ]
 }
