@@ -57,7 +57,7 @@ object PayloadHelper {
 
     private fun getAllFiles() = getLocation().listFiles().filter { it != null && it.extension == "bin" }.toMutableList()
 
-    fun isBundledPayload(payload: Payload) = payload.name != BUNDLED_PAYLOAD_TEGRAEXPLORER && payload.name == BUNDLED_PAYLOAD_HEKATE || payload.name == BUNDLED_PAYLOAD_FUSEE_PRIMARY
+    fun isBundledPayload(payload: Payload) = payload.name == BUNDLED_PAYLOAD_TEGRAEXPLORER || payload.name == BUNDLED_PAYLOAD_HEKATE || payload.name == BUNDLED_PAYLOAD_FUSEE_PRIMARY
 
     fun isNotBundledPayload(payload: Payload) = payload.name != BUNDLED_PAYLOAD_TEGRAEXPLORER && payload.name != BUNDLED_PAYLOAD_HEKATE && payload.name != BUNDLED_PAYLOAD_FUSEE_PRIMARY
 
